@@ -1,0 +1,49 @@
+header {
+    height: 70vh;
+    padding-top: 5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    overflow: hidden;
+    background-image: url('../../assets/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__container {
+    margin-top: 8rem;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+h5 {
+    color: blueviolet;
+}
+
+.cta {
+    margin-top: 2.5rem;
+}
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+@media screen and(max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+@media screen and(max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
